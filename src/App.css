@@ -1,0 +1,29 @@
+.active {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.heroBanner {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.641), rgba(0, 0, 0, 0.674)), url(https://raw.githubusercontent.com/nerobIslam404/assingment-10-img/main/assignment-10-img/banner-bg.jpg);
+    /* height: 90vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.spaner_loading {
+    animation: roted 0.8s 0s infinite linear;
+}
+
+@keyframes roted {
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
